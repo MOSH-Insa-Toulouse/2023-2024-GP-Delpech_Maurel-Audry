@@ -3,6 +3,8 @@
 Les jauges de contraintes sont des capteur résistifs permettant de quntifier la défromation appliquée sur une structure. Ces capteurs sont souvent utilisé dans l'industrie car ils sont peu coûteux et facile à mettre en place. (Pencil Drawn Strain Gauges and Chemiresistors on Paper Cheng-Wei Lin, Zhibo Zhao, Jaemyung Kim & Jiaxing Huang Department of Materials Science and Engineering, Northwestern University 2220 Campus Drive, Evanston, IL, 60208, USA).
 La mesure de résistance de ce type de crayon nécessite une amplification nous avons donc crée un Shield Arduino pour le traitement du signal et son affichage.
 
+![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/Photo%20shield.jpg)
+
 ## Livrables
 - Un shield arduino permettant le conditionnement des mesures du capteur graphite, leur traitement et leur affichage.
 - Une code arduino permettant le choix du gain de l'amplificateur, la communication en bleutooth via un module HC 05 et l'affichage des mesure sur un écran OLED.
@@ -71,7 +73,7 @@ Le shield est réalisé sur des plaques d'époxy recouvertes d'une couche de cui
 
 L'étape suivante est de percer les trous pour faire passer les pins de la carte et les composants. Une fois les trous percés, on soude les composants et les headers à la plaque.
 
-![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/Photo%20shield.jpg)
+# Code Arduino
 
 # Application android
 
@@ -90,3 +92,8 @@ $$\epsilon = \frac{e}{2r}$$
  
 avec e l’épaisseur du capteur et r le rayon de courbure. Les mesures sont réalisées en tension.
 
+2 des différents capteurs utilisés :
+
+![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/Capteur%20Graphite.jpg)
+
+# Datasheet
