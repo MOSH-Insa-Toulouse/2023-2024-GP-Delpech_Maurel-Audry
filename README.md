@@ -1,7 +1,13 @@
 # Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite
-Implémentation d'un capteur de déformation/jauge de contrainte à base de graphite 3H à 3B. La mesure de résistance de ce type de crayon nécessite une amplification nous avons donc crée un Shield Arduino pour le traitement du signal et son affichage.
+## Implémentation d'un capteur de déformation/jauge de contrainte à base de graphite issus de crayons à papier HB à 2H.
+Les jauges de contraintes sont des capteur résistifs permettant de quntifier la défromation appliquée sur une structure. Ces capteurs sont souvent utilisé dans l'industrie car ils sont peu coûteux et facile à mettre en place. (Pencil Drawn Strain Gauges and Chemiresistors on Paper Cheng-Wei Lin, Zhibo Zhao, Jaemyung Kim & Jiaxing Huang Department of Materials Science and Engineering, Northwestern University 2220 Campus Drive, Evanston, IL, 60208, USA).
+La mesure de résistance de ce type de crayon nécessite une amplification nous avons donc crée un Shield Arduino pour le traitement du signal et son affichage.
 
 ## Livrables
+- Un shield arduino permettant le conditionnement des mesures du capteur graphite, leur traitement et leur affichage.
+- Une code arduino permettant le choix du gain de l'amplificateur, la communication en bleutooth via un module HC 05 et l'affichage des mesure sur un écran OLED.
+- Une datasheet du capteur de contrainte low-tech
+
 ## Hardware utilisé
 - 1 carte Arduino Uno
 - 1 Module Bluetooth HC-05
@@ -79,4 +85,12 @@ Si le télephone est connecté, l'application recevras les données en continu e
 
 ![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/App%20front.PNG)
 
+
+# Banc de test
+
+Comme banc de test, nous avons utilisé 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pas de 0,5 cm. La géométrie des cylinf=dres est connue, il est possbile de remonter à la défromation avec la formule suivante :
+
+$$\epsilon = \frac{e}{2r}$$ 
+ 
+avec e l’épaisseur du capteur et r le rayon de courbure. Les mesures sont réalisées en tension.
 
