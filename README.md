@@ -3,6 +3,17 @@ Implémentation d'un capteur de déformation/jauge de contrainte à base de grap
 
 ## Livrables
 ## Hardware utilisé
+- 1 carte Arduino Uno
+- 1 Module Bluetooth HC-05
+- 1 Encodeur rotatoire
+- 1 Écran OLED01
+- 1 Flex sensor
+- 2 Résistance de 100kΩ
+- 1 Résistance de 1kΩ
+- 1 Potentiomètre digital MCP-41050
+- 2 Condensateurs 100nF
+- 1 Condensateurs 1µF
+- 1 AOP LTC1050
 
 # Simulation du circuit amplificateur sur LTspice
 Un circuit de transimpédance est utilisé pour elever le faible signal du capteur (100nA) à un signal lisible pour le microcontroleur de l'Arduino.
