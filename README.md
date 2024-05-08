@@ -14,11 +14,7 @@ La mesure de résistance de ce type de crayon nécessite une amplification nous 
 - 1 Encodeur rotatoire
 - 1 Écran OLED01
 - 1 Flex sensor
-- 2 Résistance de 100kΩ
-- 1 Résistance de 1kΩ
 - 1 Potentiomètre digital MCP-41050
-- 2 Condensateurs 100nF
-- 1 Condensateurs 1µF
 - 1 AOP LTC1050
 
 # Simulation du circuit amplificateur sur LTspice
