@@ -86,7 +86,7 @@ Si le télephone est connecté, l'application recevras les données en continu e
 
 # Banc de test
 
-Comme banc de test, nous avons utilisé 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pas de 0,5 cm. La géométrie des cylinf=dres est connue, il est possbile de remonter à la défromation avec la formule suivante :
+Comme banc de test, nous avons utilisé 7 demi cylindres de différents diamètres allant de 2 à 5 cm avec un pas de 0,5 cm. La géométrie des cylindres est connue, il est possbile de remonter à la défromation avec la formule suivante :
 
 $$\epsilon = \frac{e}{2r}$$ 
  
