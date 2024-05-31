@@ -99,4 +99,13 @@ avec e l’épaisseur du capteur et r le rayon de courbure. Les mesures sont ré
 
 ![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/Capteur%20Graphite.jpg)
 
+Suite aux mesures de résistance nous obtenons les courbes suivantes.
+Pour la flexion :
+
+![](https://github.com/MOSH-Insa-Toulouse/2023-2024-GP-Delpech_Maurel-Audry/blob/main/images/Resistance%20relative%20deformation%20Flexion.PNG)
+
+Pour la compression :
+
+![](https://github.com/MOSH-Insa-Toulouse/2023-2024-GP-Delpech_Maurel-Audry/blob/main/images/Resistance%20relative%20deformation%20compression.PNG)
+
 # Datasheet
