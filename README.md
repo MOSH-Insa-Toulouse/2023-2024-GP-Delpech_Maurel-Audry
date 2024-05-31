@@ -77,6 +77,14 @@ L'étape suivante est de percer les trous pour faire passer les pins de la carte
 Le code a été réalisé sous Arduino IDE 2.3.2 et il est consultable 
 [ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-GP-Delpech_Maurel-Audry/tree/main/Master_code_projet_capteur).
 
+On utilise la bibliothèque Adafruit_SSD1306 pour gérer l'écran OLED sur lequel on affiche deux sous-menus.
+Le premier permet d'afficher la tension après amplification du capteur graphite, la conversion de cette tension en une valeur de résistance et enfin la résistance du capteur de flexion. Le second permet de moduler la résistance du MCP_41050.
+Pour naviguer entre les menus et moduler cette résistance, on utilise l'encodeur rotatoire et on clique sur le bouton pour valider ou revenir au menu précédent. 
+Les mesures sont ensuite 
+
+
+
+
 
 
 
