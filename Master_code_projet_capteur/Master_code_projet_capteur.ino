@@ -102,7 +102,7 @@ void setup() {
 
 void loop() {
 
-  // Lecture de l'état du bouton pour passer du menu et aus sous-menu
+  // Lecture de l'état du bouton pour passer du menu et aux sous-menus
   int stateSW = digitalRead(Switch);
   if (stateSW != lastStateSW && stateSW == LOW) {
     Serial.println(F("Clic!"));
