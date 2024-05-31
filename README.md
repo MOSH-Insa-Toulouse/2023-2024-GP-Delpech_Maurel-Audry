@@ -80,7 +80,7 @@ Le code a été réalisé sous Arduino IDE 2.3.2 et il est consultable
 On utilise la bibliothèque Adafruit_SSD1306 pour gérer l'écran OLED sur lequel on affiche deux sous-menus.
 Le premier permet d'afficher la tension après amplification du capteur graphite, la conversion de cette tension en une valeur de résistance et enfin la résistance du capteur de flexion. Le second permet de moduler la résistance du MCP_41050.
 Pour naviguer entre les menus et moduler cette résistance, on utilise l'encodeur rotatoire et on clique sur le bouton pour valider ou revenir au menu précédent. 
-Les mesures sont ensuite 
+Les mesures sont ensuite transférées à l'application Android via le module bluetooth. 
 
 
 
@@ -110,7 +110,7 @@ avec e l’épaisseur du capteur et r le rayon de courbure. Les mesures sont ré
 ![](https://github.com/GaetanDelpech/Projet-MOSH-INSA-Toulouse-2023-2024-Capteur-Graphite/blob/main/images/Capteur%20Graphite.jpg)
 
 Suite aux mesures de résistance nous obtenons les courbes suivantes.
-Pour la flexion :
+Pour l'extension :
 
 ![](https://github.com/MOSH-Insa-Toulouse/2023-2024-GP-Delpech_Maurel-Audry/blob/main/images/Resistance%20relative%20deformation%20Flexion.PNG)
 
