@@ -75,7 +75,7 @@ L'étape suivante est de percer les trous pour faire passer les pins de la carte
 
 # Code Arduino
 Le code a été réalisé sous Arduino IDE 2.3.2 et consultable 
-[ici](Application%vAndroid/Master_code_projet_capteur/Master_code_projet_capteur.ino)
+[ici](Application%20Android/Master_code_projet_capteur/Master_code_projet_capteur.ino)
 
 
 # Application android
