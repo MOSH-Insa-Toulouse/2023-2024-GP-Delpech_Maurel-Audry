@@ -74,8 +74,10 @@ Le shield est réalisé sur des plaques d'époxy recouvertes d'une couche de cui
 L'étape suivante est de percer les trous pour faire passer les pins de la carte et les composants. Une fois les trous percés, on soude les composants et les headers à la plaque.
 
 # Code Arduino
-Le code a été réalisé sous Arduino IDE 2.3.2 et consultable 
-[ici](Application%20Android/Master_code_projet_capteur/Master_code_projet_capteur.ino)
+Le code a été réalisé sous Arduino IDE 2.3.2 et il est consultable 
+[ici](https://github.com/MOSH-Insa-Toulouse/2023-2024-GP-Delpech_Maurel-Audry/tree/main/Master_code_projet_capteur).
+
+
 
 
 # Application android
